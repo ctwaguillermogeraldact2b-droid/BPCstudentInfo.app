@@ -54,7 +54,6 @@ Negrido Nichul Ann A.
 | **Administrator** | `admin` | `admin123` | Full administrative control, section management & teacher authorization |
 | **Teacher (ICT Cluster Head)** | `ICT-8492` | `teacher123` | Faculty portal for Paulo A. Victoria, MIT (ICT Cluster Head) |
 | **Student (Default)** | `MA-25011126` | `bpc2026` | Gerald Guillermo (BSIS 2-A) |
-| **Student (ACT 2-B)** | `MA-25011147` *(and 38 others)* | `bpc2026` | Karen Abnay & all classmates in ACT 2nd Year Section B |
 
 > 💡 **All 95 Teacher Accounts Pre-Signed Up:**
 > Every faculty member across all 5 Department Clusters (`ICT`, `LANG`, `HB`, `ASC`, `SKP`) is pre-authorized and pre-signed up (`isSignedUp = true`). Teachers can sign in instantly using their assigned **Shuffled Non-Year Teacher Code** (e.g., `ICT-8492`, `LANG-5921`) with default password `teacher123`.
