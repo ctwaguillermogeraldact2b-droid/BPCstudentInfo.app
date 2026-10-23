@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bpc_gold">#F2B705</color>
+    <color name="bpc_gold_deep">#C79302</color>
+    <color name="bpc_green">#0B5D33</color>
+    <color name="bpc_green_deep">#073F23</color>
+    <color name="bpc_green_mid">#0E7A45</color>
+    <color name="bpc_green_tint">#E4EFE7</color>
+    <color name="bpc_red">#B3261E</color>
+    <color name="hairline">#D8E2DA</color>
+    <color name="ic_launcher_background">#0B5D33</color>
+    <color name="ic_logo_background">#3DDC84</color>
+    <color name="ink">#14201A</color>
+    <color name="ink_muted">#5B6B61</color>
+    <color name="status_fail">#B3261E</color>
+    <color name="status_pass">#0E7A45</color>
+    <color name="status_warn">#B4690E</color>
+    <color name="surface">#F5F7F4</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="card_radius">14dp</dimen>
+    <dimen name="gutter">16dp</dimen>
+    <dimen name="gutter_loose">24dp</dimen>
+    <dimen name="gutter_tight">12dp</dimen>
+    <dimen name="text_body">14sp</dimen>
+    <dimen name="text_display">26sp</dimen>
+    <dimen name="text_meta">12sp</dimen>
+    <dimen name="text_title">19sp</dimen>
+    <plurals name="slots_left">
+        <item quantity="one">%d slot left</item>
+        <item quantity="other">%d slots left</item>
+    </plurals>
+    <plurals name="units">
+        <item quantity="one">%d unit</item>
+        <item quantity="other">%d units</item>
+    </plurals>
+    <string name="action_go_to_login">Already have an account? Sign in</string>
+    <string name="action_go_to_sign_up">Don\'t have an account? Sign up</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_out">Sign out</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="action_submit_enrollment">Submit enrollment</string>
+    <string name="announcement_meta">%1$s  ·  %2$s</string>
+    <string name="app_name">BPC Student</string>
+    <string name="cd_change_photo">Change profile picture</string>
+    <string name="cd_logo">Bulacan Polytechnic College mark</string>
+    <string name="cd_profile_picture">Profile picture</string>
+    <string name="college_name">Bulacan Polytechnic College</string>
+    <string name="college_tagline">Student Information System</string>
+    <string name="day_load">%1$s  ·  %2$d classes</string>
+    <string name="enroll_empty">Pick at least one subject to continue.</string>
+    <string name="enroll_over_load">You\'re over the 24-unit limit. Remove a subject, or file an overload request at the Registrar.</string>
+    <string name="enroll_submitted">Enrollment filed. The Registrar confirms slots within 3 working days.</string>
+    <string name="enrollment_closed">Enrollment is closed for this term</string>
+    <string name="enrollment_window">Enrollment closes %1$s</string>
+    <string name="err_credentials">That student number and password don\'t match. Check for typos and try again.</string>
+    <string name="err_email">Enter a valid email address.</string>
+    <string name="err_first_name">Enter your first name.</string>
+    <string name="err_last_name">Enter your last name.</string>
+    <string name="err_password">Enter your password.</string>
+    <string name="err_student_no">Enter your student number.</string>
+    <string name="grade_breakdown">Midterm %1$s  ·  Finals %2$s  ·  %3$d units</string>
+    <string name="greeting_afternoon">Good afternoon</string>
+    <string name="greeting_evening">Good evening</string>
+    <string name="greeting_morning">Good morning</string>
+    <string name="hint_email">Email address</string>
+    <string name="hint_first_name">First name</string>
+    <string name="hint_last_name">Last name</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_student_no">Student number</string>
+    <string name="id_card_meta">%1$s · %2$s · Section %3$s</string>
+    <string name="login_demo_hint">Demo account — 2024-00417 / bpc2026</string>
+    <string name="login_heading">Sign in</string>
+    <string name="login_sub">Use the student number printed on your registration form.</string>
+    <string name="nav_admin_announcements">Announcements</string>
+    <string name="nav_admin_grades">Grades</string>
+    <string name="nav_admin_ids">Authorized IDs</string>
+    <string name="nav_admin_schedule">Schedule</string>
+    <string name="nav_admin_settings">Settings</string>
+    <string name="nav_admin_students">Students</string>
+    <string name="nav_admin_subjects">Subjects</string>
+    <string name="nav_enroll">Enroll</string>
+    <string name="nav_grades">Grades</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_schedule">Schedule</string>
+    <string name="next_class_meta">%1$s  ·  %2$s  ·  ends %3$s</string>
+    <string name="offered_meta">%1$s  ·  %2$s  ·  %3$s</string>
+    <string name="room_and_teacher">%1$s  ·  %2$s</string>
+    <string name="sign_up_heading">Create account</string>
+    <string name="sign_up_sub">Enter your details to register as a student.</string>
+    <string name="sign_up_success">Account created! You can now sign in.</string>
+    <string name="slots_closed">No slots left</string>
+    <string name="stat_average">Last GWA</string>
+    <string name="stat_subjects">Subjects</string>
+    <string name="stat_units">Units this term</string>
+    <string name="subject_line">%1$s — %2$s</string>
+    <string name="unit_count">%1$d of %2$d units</string>
+    <string name="unit_hint_full">Regular load reached</string>
+    <string name="unit_hint_ok">You can still add more</string>
+    <string name="unit_hint_over">Over the limit</string>
+    <style name="Card.BPC" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardCornerRadius">@dimen/card_radius</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="strokeColor">@color/hairline</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+    <style name="Text" parent="android:Widget.TextView"/>
+    <style name="Text.Body">
+        <item name="android:textSize">@dimen/text_body</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:lineSpacingMultiplier">1.25</item>
+    </style>
+    <style name="Text.Display">
+        <item name="android:textSize">@dimen/text_display</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Text.Meta">
+        <item name="android:textSize">@dimen/text_meta</item>
+        <item name="android:textColor">@color/ink_muted</item>
+    </style>
+    <style name="Text.Title">
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Theme.BPC" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/bpc_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/bpc_green_tint</item>
+        <item name="colorOnPrimaryContainer">@color/bpc_green_deep</item>
+        <item name="colorSecondary">@color/bpc_gold_deep</item>
+        <item name="colorOnSecondary">@color/ink</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/ink</item>
+        <item name="android:colorBackground">@color/surface</item>
+        <item name="colorOutline">@color/hairline</item>
+        <item name="android:statusBarColor">@color/bpc_green_deep</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="materialButtonStyle">@style/Widget.BPC.Button</item>
+        <item name="textInputStyle">@style/Widget.BPC.TextField</item>
+    </style>
+    <style name="Widget.BPC.Button" parent="Widget.Material3.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="cornerRadius">10dp</item>
+    </style>
+    <style name="Widget.BPC.TextField" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+    </style>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  PLACEHOLDER MARK — this is a neutral stand-in, NOT the Bulacan Polytechnic College seal.
+  Replace it with the official artwork before you ship or submit:
+    1. Get the seal as SVG (or high-res PNG) from the BPC MIS / Registrar office.
+    2. Android Studio > right-click res > New > Vector Asset > Local file,
+       and name the asset ic_bpc_mark so every reference picks it up automatically.
+  Referenced from: activity_login.xml, view_id_card.xml, fragment_profile.xml, ic_launcher_foreground.xml
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <path
+        android:fillColor="#0B5D33"
+        android:pathData="M24,24 m-22,0 a22,22 0 1,0 44,0 a22,22 0 1,0 -44,0" />
+
+    <path
+        android:fillColor="#F2B705"
+        android:fillType="evenOdd"
+        android:pathData="M24,24 m-20,0 a20,20 0 1,0 40,0 a20,20 0 1,0 -40,0 M24,24 m-17,0 a17,17 0 1,0 34,0 a17,17 0 1,0 -34,0" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,13 L38,20 L24,27 L10,20 Z" />
+
+    <path
+        android:fillColor="#F2B705"
+        android:pathData="M15,23.5 L15,30.5 C15,30.5 18.5,34 24,34 C29.5,34 33,30.5 33,30.5 L33,23.5 L24,28 Z" />
+
+    <path
+        android:strokeColor="#F2B705"
+        android:strokeWidth="1.4"
+        android:pathData="M37,20.5 L37,29" />
+
+    <path
+        android:fillColor="#F2B705"
+        android:pathData="M37,29 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+</vector>

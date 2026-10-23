@@ -1,0 +1,4 @@
+ph.edu.bpc.sis.test.app-androidTest-0 /Users/geraldguillermo/Downloads/BPCStudentInfo/app/build/generated/res/resValues/androidTest/debug
+ph.edu.bpc.sis.test.app-mergeDebugAndroidTestResources-1 /Users/geraldguillermo/Downloads/BPCStudentInfo/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+ph.edu.bpc.sis.test.app-mergeDebugAndroidTestResources-2 /Users/geraldguillermo/Downloads/BPCStudentInfo/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+ph.edu.bpc.sis.test.app-debugAndroidTest-3 /Users/geraldguillermo/Downloads/BPCStudentInfo/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

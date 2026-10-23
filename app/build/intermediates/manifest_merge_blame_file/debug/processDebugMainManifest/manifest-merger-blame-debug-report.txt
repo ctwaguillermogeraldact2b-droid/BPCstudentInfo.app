@@ -1,0 +1,183 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ph.edu.bpc.sis"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.13.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/ce422c585b847fcf316b8740b0b938d4/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+14        android:name="ph.edu.bpc.sis.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.13.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/ce422c585b847fcf316b8740b0b938d4/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.13.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/ce422c585b847fcf316b8740b0b938d4/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="ph.edu.bpc.sis.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.13.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/ce422c585b847fcf316b8740b0b938d4/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.13.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/ce422c585b847fcf316b8740b0b938d4/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:6:5-55:19
+20        android:allowBackup="true"
+20-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:7:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.13.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/ce422c585b847fcf316b8740b0b938d4/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:8:9-65
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:fullBackupContent="@xml/backup_rules"
+25-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:9:9-54
+26        android:icon="@mipmap/ic_launcher"
+26-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:10:9-43
+27        android:label="@string/app_name"
+27-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:11:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:12:9-54
+29        android:supportsRtl="true"
+29-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:13:9-35
+30        android:theme="@style/Theme.BPC" >
+30-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:14:9-41
+31        <activity
+31-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:16:9-24:20
+32            android:name="ph.edu.bpc.sis.LoginActivity"
+32-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:17:13-42
+33            android:exported="true"
+33-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:18:13-36
+34            android:windowSoftInputMode="adjustResize" >
+34-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:19:13-55
+35            <intent-filter>
+35-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:20:13-23:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:21:17-69
+36-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:21:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:22:17-77
+38-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:22:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:26:9-29:58
+42            android:name="ph.edu.bpc.sis.MainActivity"
+42-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:27:13-41
+43            android:exported="false"
+43-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:28:13-37
+44            android:windowSoftInputMode="adjustResize" />
+44-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:29:13-55
+45        <activity
+45-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:31:9-34:58
+46            android:name="ph.edu.bpc.sis.SignUpActivity"
+46-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:32:13-43
+47            android:exported="false"
+47-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:33:13-37
+48            android:windowSoftInputMode="adjustResize" />
+48-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:34:13-55
+49        <activity
+49-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:36:9-39:58
+50            android:name="ph.edu.bpc.sis.AdminActivity"
+50-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:37:13-42
+51            android:exported="false"
+51-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:38:13-37
+52            android:windowSoftInputMode="adjustResize" />
+52-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:39:13-55
+53        <activity
+53-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:41:9-44:58
+54            android:name="ph.edu.bpc.sis.TeacherActivity"
+54-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:42:13-44
+55            android:exported="false"
+55-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:43:13-37
+56            android:windowSoftInputMode="adjustResize" />
+56-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:44:13-55
+57        <activity
+57-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:46:9-49:58
+58            android:name="ph.edu.bpc.sis.ManageStudentActivity"
+58-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:47:13-50
+59            android:exported="false"
+59-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:48:13-37
+60            android:windowSoftInputMode="adjustResize" />
+60-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:49:13-55
+61        <activity
+61-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:51:9-54:58
+62            android:name="ph.edu.bpc.sis.TeacherManageStudentActivity"
+62-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:52:13-57
+63            android:exported="false"
+63-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:53:13-37
+64            android:windowSoftInputMode="adjustResize" />
+64-->/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/AndroidManifest.xml:54:13-55
+65
+66        <provider
+66-->[androidx.emoji2:emoji2:1.3.0] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/c90ac7e0a54f025d77e13d5bd0b69765/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+67            android:name="androidx.startup.InitializationProvider"
+67-->[androidx.emoji2:emoji2:1.3.0] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/c90ac7e0a54f025d77e13d5bd0b69765/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+68            android:authorities="ph.edu.bpc.sis.androidx-startup"
+68-->[androidx.emoji2:emoji2:1.3.0] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/c90ac7e0a54f025d77e13d5bd0b69765/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+69            android:exported="false" >
+69-->[androidx.emoji2:emoji2:1.3.0] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/c90ac7e0a54f025d77e13d5bd0b69765/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+70            <meta-data
+70-->[androidx.emoji2:emoji2:1.3.0] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/c90ac7e0a54f025d77e13d5bd0b69765/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+71                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+71-->[androidx.emoji2:emoji2:1.3.0] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/c90ac7e0a54f025d77e13d5bd0b69765/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+72                android:value="androidx.startup" />
+72-->[androidx.emoji2:emoji2:1.3.0] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/c90ac7e0a54f025d77e13d5bd0b69765/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+73            <meta-data
+73-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/a1acd7b6326d07f94dbbcb10cd829865/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+74-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/a1acd7b6326d07f94dbbcb10cd829865/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+75                android:value="androidx.startup" />
+75-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/a1acd7b6326d07f94dbbcb10cd829865/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+76            <meta-data
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/328d72c02d0bdd65421060855317d3d3/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/328d72c02d0bdd65421060855317d3d3/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+78                android:value="androidx.startup" />
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/328d72c02d0bdd65421060855317d3d3/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+79        </provider>
+80
+81        <receiver
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/328d72c02d0bdd65421060855317d3d3/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+82            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/328d72c02d0bdd65421060855317d3d3/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+83            android:directBootAware="false"
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/328d72c02d0bdd65421060855317d3d3/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+84            android:enabled="true"
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/328d72c02d0bdd65421060855317d3d3/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+85            android:exported="true"
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/328d72c02d0bdd65421060855317d3d3/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+86            android:permission="android.permission.DUMP" >
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/328d72c02d0bdd65421060855317d3d3/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/328d72c02d0bdd65421060855317d3d3/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+88                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/328d72c02d0bdd65421060855317d3d3/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/328d72c02d0bdd65421060855317d3d3/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+89            </intent-filter>
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/328d72c02d0bdd65421060855317d3d3/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+91                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/328d72c02d0bdd65421060855317d3d3/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/328d72c02d0bdd65421060855317d3d3/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+92            </intent-filter>
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/328d72c02d0bdd65421060855317d3d3/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+94                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/328d72c02d0bdd65421060855317d3d3/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/328d72c02d0bdd65421060855317d3d3/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+95            </intent-filter>
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/328d72c02d0bdd65421060855317d3d3/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+97                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/328d72c02d0bdd65421060855317d3d3/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/geraldguillermo/Downloads/gradle-8.14.5/caches/8.14.5/transforms/328d72c02d0bdd65421060855317d3d3/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+98            </intent-filter>
+99        </receiver>
+100    </application>
+101
+102</manifest>

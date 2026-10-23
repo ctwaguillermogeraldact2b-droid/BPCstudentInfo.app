@@ -1,0 +1,218 @@
+[
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_admin_teacher_assignments.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_admin_teacher_assignments.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_teacher_students.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_teacher_students.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_admin_grading_tally.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_admin_grading_tally.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/item_announcement_admin.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/item_announcement_admin.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_teacher_classes.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_teacher_classes.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/item_schedule.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/item_schedule.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_profile.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/item_student_admin.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/item_student_admin.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_admin_announcements.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_admin_announcements.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_student_cor.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_student_cor.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/item_offered_subject.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/item_offered_subject.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/dialog_report_of_grades.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/dialog_report_of_grades.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/activity_admin.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/activity_admin.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/dialog_add_missed_activity.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/dialog_add_missed_activity.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/activity_manage_student.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/activity_manage_student.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/dialog_add_schedule.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/dialog_add_schedule.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_teacher_student_info.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_teacher_student_info.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_student_missed_activities.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_student_missed_activities.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/dialog_add_teacher_code.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/dialog_add_teacher_code.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/item_next_class.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/item_next_class.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/activity_login.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/item_authorized_teacher_code.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/item_authorized_teacher_code.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_admin_students.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_admin_students.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/activity_teacher_manage_student.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/activity_teacher_manage_student.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_dashboard.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/dialog_add_teacher_assignment.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/dialog_add_teacher_assignment.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/activity_main.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_student_schedule.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_student_schedule.xml"
+    },
+    {
+        "merged": "ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/dialog_add_section.xml",
+        "source": "ph.edu.bpc.sis.app-main-6:/layout/dialog_add_section.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_grades.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_grades.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_enrollment.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_enrollment.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/view_id_card.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/view_id_card.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/dialog_forgot_password.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/dialog_forgot_password.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_student_grades.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_student_grades.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/item_teacher_assignment.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/item_teacher_assignment.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_admin_teacher_codes.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_admin_teacher_codes.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/item_authorized_id.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/item_authorized_id.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/item_announcement.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/item_announcement.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_student_academic.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_student_academic.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_admin_ids.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_admin_ids.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/view_stat.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/view_stat.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/activity_sign_up.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/dialog_add_announcement.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/dialog_add_announcement.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/dialog_add_subject.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/dialog_add_subject.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/view_detail_row.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/view_detail_row.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/item_missed_activity.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/item_missed_activity.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/dialog_add_grade.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/dialog_add_grade.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_admin_subjects.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_admin_subjects.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/activity_teacher.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/activity_teacher.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_admin_settings.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_admin_settings.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_student_subjects.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_student_subjects.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/item_grade.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/item_grade.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_schedule.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_schedule.xml"
+    },
+    {
+        "merged": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-mergeDebugResources-3:/layout/fragment_admin_schedule.xml",
+        "source": "/Users/geraldguillermo/Downloads/gradle-8.14.5/daemon/8.14.5/ph.edu.bpc.sis.app-main-6:/layout/fragment_admin_schedule.xml"
+    }
+]

@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/33834431/README.md)
 # BPC Student Information System (BPC-SIS)
 
 A comprehensive student information and academic management Android application developed for **Bulacan Polytechnic College (BPC)**. Built using **Kotlin**, **XML Layouts**, and **Material 3**, the system supports three distinct user roles (**Student**, **Teacher**, and **Administrator**) with centralized data persistence and real-time synchronization.
@@ -6,14 +5,13 @@ A comprehensive student information and academic management Android application 
 ---
 
 ## 👥 Developers & Team Members
-* **Lead Developer / System Architect:** Gerald Guillermo
-* **Groupmates** 
-Lazaro. Justine
-Dela Cruz Reinna
-Negrido Nichul Ann A.
+* **Lead Developer / System Architect:** Gerald Guillermo (`MA-25011126`)
+* **Group Mates:**  
+* Lazaro. Justine 
+* Dela Cruz Reinna 
+* Negrido Nichul Ann A.
 * **Institution:** Bulacan Polytechnic College (BPC)
-* **Program:** Associate In Computer Technology / (ACT)
-* **Section** ACT 2B
+* **Program/Section:** Associate in Computer Technology / ACT 2B
 
 ## 📌 Version Information
 * **Version:** 1.0.0 (Stable Release)
@@ -54,6 +52,7 @@ Negrido Nichul Ann A.
 | **Administrator** | `admin` | `admin123` | Full administrative control, section management & teacher authorization |
 | **Teacher (ICT Cluster Head)** | `ICT-8492` | `teacher123` | Faculty portal for Paulo A. Victoria, MIT (ICT Cluster Head) |
 | **Student (Default)** | `MA-25011126` | `bpc2026` | Gerald Guillermo (BSIS 2-A) |
+| **Student (ACT 2-B)** | `MA-25011147` *(and 38 others)* | `bpc2026` | Karen Abnay & all classmates in ACT 2nd Year Section B |
 
 > 💡 **All 95 Teacher Accounts Pre-Signed Up:**
 > Every faculty member across all 5 Department Clusters (`ICT`, `LANG`, `HB`, `ASC`, `SKP`) is pre-authorized and pre-signed up (`isSignedUp = true`). Teachers can sign in instantly using their assigned **Shuffled Non-Year Teacher Code** (e.g., `ICT-8492`, `LANG-5921`) with default password `teacher123`.
@@ -85,7 +84,7 @@ Negrido Nichul Ann A.
 
 ### 🛠 Administrator Role
 * **Department Cluster & Teacher Management:** Group, filter, and manage faculty across 5 department clusters (`ICT`, `LANG`, `HB`, `ASC`, `SKP`).
-* **Section Creation & Department Mapping:** Create sections per department / program using all BPC courses in the database.
+* **Section Creation & Database Course Mapping:** Create sections per department / program using pickable dropdowns containing all BPC courses from the database.
 * **Master Schedule Management & Section Filtering:** Manage course schedules, meeting times, rooms, and teacher assignments with **Filter by Section** capabilities (`2-A`, `2-B`, etc.) and cluster filtering.
 * **Official Report of Grades (Bulk & Individual):** Generate official grade sheet report templates matching institutional templates (bulk class reports per section or individual student report cards) with grading system legends and registrar/dean approval signature lines.
 * **Student Enrollment Status & Records:** Track students as **Attending** or **Dropped**, manage academic standing, and update student profiles.
@@ -103,6 +102,12 @@ Negrido Nichul Ann A.
 
 ---
 
+## 📖 Project Documentation & GitHub Requirements
+* **Documentation:** Includes full Project Overview, Objectives, Scope & Features, System Design (Architecture, Use Case, and ER Diagrams), UI/UX Implementation, Testing & Evaluation, and Conclusion & Recommendations.
+* **GitHub Repository:** `https://github.com/geraldguillermo/BPCStudentInfo` with structured progressive commit history (`Initial project setup`, `Created login interface`, `Added database connection`, `Implemented student registration`, `Added attendance module`, `Fixed login validation`, `Implemented notifications`, `Updated UI design`, `Final testing`).
+
+---
+
 ## 🏗 Project Architecture & Layout
 
 ```
@@ -110,7 +115,7 @@ BPCStudentInfo/
 ├── README.md
 ├── source-code/ (app/src/main/java/ph/edu/bpc/sis/)
 ├── assets/ (app/src/main/res/drawable & mipmap)
-├── documentation/ (PROJECT_DOCUMENTATION.md)
+├── documentation/ (project_documentation.artifact.md)
 └── screenshots/
 ```
 

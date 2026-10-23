@@ -1,0 +1,4 @@
+#Wed Oct 21 17:41:57 PST 2026
+base.0=/Users/geraldguillermo/Downloads/BPCStudentInfo/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

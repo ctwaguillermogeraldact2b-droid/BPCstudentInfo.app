@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BPC Student</string>
+    <string name="college_name">Bulacan Polytechnic College</string>
+    <string name="college_tagline">Student Information System</string>
+
+    <string name="login_heading">Sign in</string>
+    <string name="login_sub">Use the student number printed on your registration form.</string>
+    <string name="hint_student_no">Student number</string>
+    <string name="hint_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="login_demo_hint">Demo account — 2024-00417 / bpc2026</string>
+    <string name="err_student_no">Enter your student number.</string>
+    <string name="err_password">Enter your password.</string>
+    <string name="err_credentials">That student number and password don\'t match. Check for typos and try again.</string>
+
+    <string name="sign_up_heading">Create account</string>
+    <string name="sign_up_sub">Enter your details to register as a student.</string>
+    <string name="hint_first_name">First name</string>
+    <string name="hint_last_name">Last name</string>
+    <string name="hint_email">Email address</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="action_go_to_sign_up">Don\'t have an account? Sign up</string>
+    <string name="action_go_to_login">Already have an account? Sign in</string>
+    <string name="err_first_name">Enter your first name.</string>
+    <string name="err_last_name">Enter your last name.</string>
+    <string name="err_email">Enter a valid email address.</string>
+    <string name="sign_up_success">Account created! You can now sign in.</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_grades">Grades</string>
+    <string name="nav_schedule">Schedule</string>
+    <string name="nav_enroll">Enroll</string>
+    <string name="nav_profile">Profile</string>
+
+    <string name="action_sign_out">Sign out</string>
+    <string name="action_submit_enrollment">Submit enrollment</string>
+    <string name="enroll_empty">Pick at least one subject to continue.</string>
+    <string name="enroll_over_load">You\'re over the 24-unit limit. Remove a subject, or file an overload request at the Registrar.</string>
+    <string name="enroll_submitted">Enrollment filed. The Registrar confirms slots within 3 working days.</string>
+
+    <string name="cd_logo">Bulacan Polytechnic College mark</string>
+    <string name="cd_profile_picture">Profile picture</string>
+    <string name="cd_change_photo">Change profile picture</string>
+
+    <!-- formatted values -->
+    <string name="grade_breakdown">Midterm %1$s  ·  Finals %2$s  ·  %3$d units</string>
+    <string name="subject_line">%1$s — %2$s</string>
+    <string name="room_and_teacher">%1$s  ·  %2$s</string>
+    <string name="next_class_meta">%1$s  ·  %2$s  ·  ends %3$s</string>
+    <string name="announcement_meta">%1$s  ·  %2$s</string>
+    <string name="id_card_meta">%1$s · %2$s · Section %3$s</string>
+    <string name="offered_meta">%1$s  ·  %2$s  ·  %3$s</string>
+    <string name="slots_closed">No slots left</string>
+    <string name="greeting_morning">Good morning</string>
+    <string name="greeting_afternoon">Good afternoon</string>
+    <string name="greeting_evening">Good evening</string>
+    <string name="enrollment_window">Enrollment closes %1$s</string>
+    <string name="enrollment_closed">Enrollment is closed for this term</string>
+    <string name="day_load">%1$s  ·  %2$d classes</string>
+    <string name="unit_count">%1$d of %2$d units</string>
+    <string name="unit_hint_ok">You can still add more</string>
+    <string name="unit_hint_full">Regular load reached</string>
+    <string name="unit_hint_over">Over the limit</string>
+    <string name="stat_units">Units this term</string>
+    <string name="stat_subjects">Subjects</string>
+    <string name="stat_average">Last GWA</string>
+
+    <plurals name="units">
+        <item quantity="one">%d unit</item>
+        <item quantity="other">%d units</item>
+    </plurals>
+    <plurals name="slots_left">
+        <item quantity="one">%d slot left</item>
+        <item quantity="other">%d slots left</item>
+    </plurals>
+
+    <string name="nav_admin_students">Students</string>
+    <string name="nav_admin_ids">Authorized IDs</string>
+    <string name="nav_admin_announcements">Announcements</string>
+    <string name="nav_admin_grades">Grades</string>
+    <string name="nav_admin_schedule">Schedule</string>
+    <string name="nav_admin_subjects">Subjects</string>
+    <string name="nav_admin_settings">Settings</string>
+</resources>

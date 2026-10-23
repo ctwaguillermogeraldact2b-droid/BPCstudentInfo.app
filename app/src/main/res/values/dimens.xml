@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gutter">16dp</dimen>
+    <dimen name="gutter_tight">12dp</dimen>
+    <dimen name="gutter_loose">24dp</dimen>
+    <dimen name="card_radius">14dp</dimen>
+    <dimen name="text_display">26sp</dimen>
+    <dimen name="text_title">19sp</dimen>
+    <dimen name="text_body">14sp</dimen>
+    <dimen name="text_meta">12sp</dimen>
+</resources>

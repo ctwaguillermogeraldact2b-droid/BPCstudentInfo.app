@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bulacan Polytechnic College palette.
+         Swap these values for the official brand hex codes when you have them;
+         nothing else in the project hard-codes a colour. -->
+    <color name="bpc_green">#0B5D33</color>
+    <color name="bpc_green_deep">#073F23</color>
+    <color name="bpc_green_mid">#0E7A45</color>
+    <color name="bpc_green_tint">#E4EFE7</color>
+    <color name="bpc_gold">#F2B705</color>
+    <color name="bpc_gold_deep">#C79302</color>
+
+    <color name="ink">#14201A</color>
+    <color name="ink_muted">#5B6B61</color>
+    <color name="hairline">#D8E2DA</color>
+    <color name="surface">#F5F7F4</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="status_pass">#0E7A45</color>
+    <color name="status_warn">#B4690E</color>
+    <color name="status_fail">#B3261E</color>
+    <color name="bpc_red">#B3261E</color>
+</resources>

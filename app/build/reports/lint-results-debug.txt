@@ -1,0 +1,950 @@
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/build.gradle.kts:40: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.19.1 [GradleDependency]
+    implementation("androidx.core:core-ktx:1.13.1")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/build.gradle.kts:41: Warning: A newer version of androidx.appcompat:appcompat than 1.7.0 is available: 1.8.0 [GradleDependency]
+    implementation("androidx.appcompat:appcompat:1.7.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/build.gradle.kts:42: Warning: A newer version of com.google.android.material:material than 1.12.0 is available: 1.14.0 [GradleDependency]
+    implementation("com.google.android.material:material:1.12.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/build.gradle.kts:43: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.2 [GradleDependency]
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/build.gradle.kts:44: Warning: A newer version of androidx.recyclerview:recyclerview than 1.3.2 is available: 1.4.0 [GradleDependency]
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/build.gradle.kts:45: Warning: A newer version of androidx.fragment:fragment-ktx than 1.8.5 is available: 1.9.1 [GradleDependency]
+    implementation("androidx.fragment:fragment-ktx:1.8.5")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/build.gradle.kts:46: Warning: A newer version of androidx.activity:activity-ktx than 1.9.3 is available: 1.13.0 [GradleDependency]
+    implementation("androidx.activity:activity-ktx:1.9.3")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/values/strings.xml:47: Warning: Formatting %d followed by words ("units"): This should probably be a plural rather than a string [PluralsCandidate]
+    <string name="grade_breakdown">Midterm %1$s  ·  Finals %2$s  ·  %3$d units</string>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/values/strings.xml:60: Warning: Formatting %d followed by words ("classes"): This should probably be a plural rather than a string [PluralsCandidate]
+    <string name="day_load">%1$s  ·  %2$d classes</string>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/values/strings.xml:61: Warning: Formatting %d followed by words ("units"): This should probably be a plural rather than a string [PluralsCandidate]
+    <string name="unit_count">%1$d of %2$d units</string>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "PluralsCandidate":
+   This lint check looks for potential errors in internationalization where
+   you have translated a message which involves a quantity and it looks like
+   other parts of the string may need grammatical changes.
+
+   For example, rather than something like this:
+     <string name="try_again">Try again in %d seconds.</string>
+   you should be using a plural:
+      <plurals name="try_again">
+           <item quantity="one">Try again in %d second</item>
+           <item quantity="other">Try again in %d seconds</item>
+       </plurals>
+   This will ensure that in other languages the right set of translations are
+   provided for the different quantity classes.
+
+   (This check depends on some heuristics, so it may not accurately determine
+   whether a string really should be a quantity. You can use tools:ignore to
+   filter out false positives.
+
+   https://developer.android.com/guide/topics/resources/string-resource.html#Plurals
+
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/AdminAnnouncementsFragment.kt:116: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+        notifyDataSetChanged()
+        ~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/AdminAuthorizedIdsFragment.kt:96: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+        notifyDataSetChanged()
+        ~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/AdminAuthorizedTeacherCodesFragment.kt:102: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+        notifyDataSetChanged()
+        ~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/AdminStudentsFragment.kt:66: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+        notifyDataSetChanged()
+        ~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/AdminTeacherAssignmentsFragment.kt:148: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+        notifyDataSetChanged()
+        ~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/adapter/OfferedSubjectAdapter.kt:72: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+        notifyDataSetChanged()
+        ~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/adapter/ScheduleAdapter.kt:17: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+        notifyDataSetChanged()
+        ~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/StudentGradesFragment.kt:205: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+        notifyDataSetChanged()
+        ~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/StudentScheduleFragment.kt:164: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+        notifyDataSetChanged()
+        ~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/StudentSubjectsFragment.kt:142: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+        notifyDataSetChanged()
+        ~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "NotifyDataSetChanged":
+   The RecyclerView adapter's onNotifyDataSetChanged method does not specify
+   what about the data set has changed, forcing any observers to assume that
+   all existing items and structure may no longer be valid. `LayoutManager`s
+   will be forced to fully rebind and relayout all visible views.
+
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_grade.xml:33: Warning: Set android:baselineAligned="false" on this element for better performance [DisableBaselineAlignment]
+    <LinearLayout
+     ~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_schedule.xml:47: Warning: Set android:baselineAligned="false" on this element for better performance [DisableBaselineAlignment]
+    <LinearLayout
+     ~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_schedule.xml:81: Warning: Set android:baselineAligned="false" on this element for better performance [DisableBaselineAlignment]
+    <LinearLayout
+     ~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_announcements.xml:9: Warning: Set android:baselineAligned="false" on this element for better performance [DisableBaselineAlignment]
+    <LinearLayout
+     ~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_ids.xml:9: Warning: Set android:baselineAligned="false" on this element for better performance [DisableBaselineAlignment]
+    <LinearLayout
+     ~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_subjects.xml:9: Warning: Set android:baselineAligned="false" on this element for better performance [DisableBaselineAlignment]
+    <LinearLayout
+     ~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_dashboard.xml:57: Warning: Set android:baselineAligned="false" on this element for better performance [DisableBaselineAlignment]
+        <LinearLayout
+         ~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_enrollment.xml:105: Warning: Set android:baselineAligned="false" on this element for better performance [DisableBaselineAlignment]
+                <LinearLayout
+                 ~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_grades.xml:34: Warning: Set android:baselineAligned="false" on this element for better performance [DisableBaselineAlignment]
+        <LinearLayout
+         ~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_schedule.xml:9: Warning: Set android:baselineAligned="false" on this element for better performance [DisableBaselineAlignment]
+    <LinearLayout
+     ~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_subjects.xml:9: Warning: Set android:baselineAligned="false" on this element for better performance [DisableBaselineAlignment]
+    <LinearLayout
+     ~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/item_student_admin.xml:12: Warning: Set android:baselineAligned="false" on this element for better performance [DisableBaselineAlignment]
+    <LinearLayout
+     ~~~~~~~~~~~~
+
+   Explanation for issues of type "DisableBaselineAlignment":
+   When a LinearLayout is used to distribute the space proportionally between
+   nested layouts, the baseline alignment property should be turned off to
+   make the layout computation faster.
+
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/activity_admin.xml:6: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/activity_login.xml:6: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/activity_main.xml:6: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/activity_manage_student.xml:6: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/activity_sign_up.xml:6: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/activity_teacher.xml:6: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_announcements.xml:5: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_grading_tally.xml:6: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_ids.xml:5: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_schedule.xml:5: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_settings.xml:6: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_students.xml:6: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_subjects.xml:5: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_teacher_assignments.xml:5: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_teacher_codes.xml:5: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_dashboard.xml:5: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_enrollment.xml:5: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_grades.xml:5: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_profile.xml:6: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_schedule.xml:5: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_academic.xml:5: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_grades.xml:5: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_missed_activities.xml:6: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_schedule.xml:5: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_subjects.xml:5: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_teacher_classes.xml:5: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_teacher_student_info.xml:5: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_teacher_students.xml:5: Warning: Possible overdraw: Root element paints background @color/surface with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="@color/surface"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/item_announcement_admin.xml:5: Warning: Possible overdraw: Root element paints background ?attr/selectableItemBackground with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="?attr/selectableItemBackground"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/view_detail_row.xml:5: Warning: Possible overdraw: Root element paints background ?attr/selectableItemBackground with a theme that also paints a background (inferred theme is @style/Theme.BPC) [Overdraw]
+    android:background="?attr/selectableItemBackground"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "Overdraw":
+   If you set a background drawable on a root view, then you should use a
+   custom theme where the theme background is null. Otherwise, the theme
+   background will be painted first, only to have your custom background
+   completely cover it; this is called "overdraw".
+
+   NOTE: This detector relies on figuring out which layouts are associated
+   with which activities based on scanning the Java code, and it's currently
+   doing that using an inexact pattern matching algorithm. Therefore, it can
+   incorrectly conclude which activity the layout is associated with and then
+   wrongly complain that a background-theme is hidden.
+
+   If you want your custom background on multiple pages, then you should
+   consider making a custom theme with your custom background and just using
+   that theme instead of a root element background.
+
+   Of course it's possible that your custom drawable is translucent and you
+   want it to be mixed with the background. However, you will get better
+   performance if you pre-mix the background with your drawable and use that
+   resulting image or color as a custom theme background instead.
+
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/menu/admin_nav.xml:2: Warning: The resource R.menu.admin_nav appears to be unused [UnusedResources]
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+^
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/values/colors.xml:22: Warning: The resource R.color.bpc_red appears to be unused [UnusedResources]
+    <color name="bpc_red">#B3261E</color>
+           ~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_cor.xml:2: Warning: The resource R.layout.fragment_student_cor appears to be unused [UnusedResources]
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_teacher_classes.xml:2: Warning: The resource R.layout.fragment_teacher_classes appears to be unused [UnusedResources]
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_teacher_students.xml:2: Warning: The resource R.layout.fragment_teacher_students appears to be unused [UnusedResources]
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/drawable/ic_bell.xml:2: Warning: The resource R.drawable.ic_bell appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/drawable/ic_chevron.xml:2: Warning: The resource R.drawable.ic_chevron appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/drawable/ic_clock.xml:2: Warning: The resource R.drawable.ic_clock appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-hdpi/ic_launcher2.webp: Warning: The resource R.mipmap.ic_launcher2 appears to be unused [UnusedResources]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/drawable/ic_launcher2_background.xml:2: Warning: The resource R.drawable.ic_launcher2_background appears to be unused [UnusedResources]
+<vector
+^
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-hdpi/ic_launcher2_foreground.webp: Warning: The resource R.mipmap.ic_launcher2_foreground appears to be unused [UnusedResources]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-hdpi/ic_launcher2_round.webp: Warning: The resource R.mipmap.ic_launcher2_round appears to be unused [UnusedResources]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-hdpi/ic_launcher3.webp: Warning: The resource R.mipmap.ic_launcher3 appears to be unused [UnusedResources]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/drawable/ic_launcher3_background.xml:2: Warning: The resource R.drawable.ic_launcher3_background appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-hdpi/ic_launcher3_foreground.webp: Warning: The resource R.mipmap.ic_launcher3_foreground appears to be unused [UnusedResources]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-hdpi/ic_launcher3_monochrome.webp: Warning: The resource R.mipmap.ic_launcher3_monochrome appears to be unused [UnusedResources]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-hdpi/ic_launcher3_round.webp: Warning: The resource R.mipmap.ic_launcher3_round appears to be unused [UnusedResources]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/values/ic_launcher_background.xml:3: Warning: The resource R.color.ic_launcher_background appears to be unused [UnusedResources]
+    <color name="ic_launcher_background">#0B5D33</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/drawable/ic_launcher_foreground.xml:2: Warning: The resource R.drawable.ic_launcher_foreground appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-hdpi/ic_logo.webp: Warning: The resource R.mipmap.ic_logo appears to be unused [UnusedResources]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/values/ic_logo_background.xml:3: Warning: The resource R.color.ic_logo_background appears to be unused [UnusedResources]
+    <color name="ic_logo_background">#3DDC84</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-hdpi/ic_logo_foreground.webp: Warning: The resource R.mipmap.ic_logo_foreground appears to be unused [UnusedResources]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-hdpi/ic_logo_monochrome.webp: Warning: The resource R.mipmap.ic_logo_monochrome appears to be unused [UnusedResources]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-hdpi/ic_logo_round.webp: Warning: The resource R.mipmap.ic_logo_round appears to be unused [UnusedResources]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/drawable/ic_logout.xml:2: Warning: The resource R.drawable.ic_logout appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/drawable/ic_room.xml:2: Warning: The resource R.drawable.ic_room appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/drawable/ic_units.xml:2: Warning: The resource R.drawable.ic_units appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/values/strings.xml:12: Warning: The resource R.string.login_demo_hint appears to be unused [UnusedResources]
+    <string name="login_demo_hint">Demo account — 2024-00417 / bpc2026</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/values/strings.xml:43: Warning: The resource R.string.cd_profile_picture appears to be unused [UnusedResources]
+    <string name="cd_profile_picture">Profile picture</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/values/strings.xml:65: Warning: The resource R.string.stat_units appears to be unused [UnusedResources]
+    <string name="stat_units">Units this term</string>
+            ~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/values/strings.xml:66: Warning: The resource R.string.stat_subjects appears to be unused [UnusedResources]
+    <string name="stat_subjects">Subjects</string>
+            ~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/values/strings.xml:67: Warning: The resource R.string.stat_average appears to be unused [UnusedResources]
+    <string name="stat_average">Last GWA</string>
+            ~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/values/strings.xml:78: Warning: The resource R.string.nav_admin_students appears to be unused [UnusedResources]
+    <string name="nav_admin_students">Students</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/values/strings.xml:79: Warning: The resource R.string.nav_admin_ids appears to be unused [UnusedResources]
+    <string name="nav_admin_ids">Authorized IDs</string>
+            ~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/values/strings.xml:80: Warning: The resource R.string.nav_admin_announcements appears to be unused [UnusedResources]
+    <string name="nav_admin_announcements">Announcements</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/values/strings.xml:81: Warning: The resource R.string.nav_admin_grades appears to be unused [UnusedResources]
+    <string name="nav_admin_grades">Grades</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/values/strings.xml:82: Warning: The resource R.string.nav_admin_schedule appears to be unused [UnusedResources]
+    <string name="nav_admin_schedule">Schedule</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/values/strings.xml:83: Warning: The resource R.string.nav_admin_subjects appears to be unused [UnusedResources]
+    <string name="nav_admin_subjects">Subjects</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/values/strings.xml:84: Warning: The resource R.string.nav_admin_settings appears to be unused [UnusedResources]
+    <string name="nav_admin_settings">Settings</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/values/themes.xml:60: Warning: The resource R.style.Card_BPC appears to be unused [UnusedResources]
+    <style name="Card.BPC" parent="Widget.Material3.CardView.Outlined">
+           ~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/activity_teacher.xml:19: Warning: This LinearLayout layout or its LinearLayout parent is unnecessary; transfer the background attribute to the other view [UselessParent]
+        <LinearLayout
+         ~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_announcements.xml:15: Warning: This LinearLayout layout or its LinearLayout parent is unnecessary [UselessParent]
+        <LinearLayout
+         ~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_ids.xml:15: Warning: This LinearLayout layout or its LinearLayout parent is unnecessary [UselessParent]
+        <LinearLayout
+         ~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_subjects.xml:15: Warning: This LinearLayout layout or its LinearLayout parent is unnecessary [UselessParent]
+        <LinearLayout
+         ~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_schedule.xml:15: Warning: This LinearLayout layout or its LinearLayout parent is unnecessary [UselessParent]
+        <LinearLayout
+         ~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_subjects.xml:15: Warning: This LinearLayout layout or its LinearLayout parent is unnecessary [UselessParent]
+        <LinearLayout
+         ~~~~~~~~~~~~
+
+   Explanation for issues of type "UselessParent":
+   A layout with children that has no siblings, is not a scrollview or a root
+   layout, and does not have a background, can be removed and have its
+   children moved directly into the parent for a flatter and more efficient
+   layout hierarchy.
+
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/values/strings.xml:12: Warning: Replace "-" with an "en dash" character (–, &#8211;) ? [TypographyDashes]
+    <string name="login_demo_hint">Demo account — 2024-00417 / bpc2026</string>
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "TypographyDashes":
+   The "n dash" (u2013, &#8211;) and the "m dash" (u2014, &#8212;) characters
+   are used for ranges (n dash) and breaks (m dash). Using these instead of
+   plain hyphens can make text easier to read and your application will look
+   more polished.
+
+   https://en.wikipedia.org/wiki/Dash
+
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-hdpi/ic_launcher2.webp: Warning: The following unrelated icon files have identical contents: ic_launcher.webp, ic_launcher2.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-mdpi/ic_launcher2.webp: Warning: The following unrelated icon files have identical contents: ic_launcher.webp, ic_launcher2.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-xhdpi/ic_launcher2.webp: Warning: The following unrelated icon files have identical contents: ic_launcher.webp, ic_launcher2.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-xxhdpi/ic_launcher2.webp: Warning: The following unrelated icon files have identical contents: ic_launcher.webp, ic_launcher2.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-xxxhdpi/ic_launcher2.webp: Warning: The following unrelated icon files have identical contents: ic_launcher.webp, ic_launcher2.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-hdpi/ic_launcher3_round.webp: Warning: The following unrelated icon files have identical contents: ic_launcher3.webp, ic_launcher3_round.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-mdpi/ic_launcher3_round.webp: Warning: The following unrelated icon files have identical contents: ic_launcher3.webp, ic_launcher3_round.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-xhdpi/ic_launcher3_round.webp: Warning: The following unrelated icon files have identical contents: ic_launcher3.webp, ic_launcher3_round.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-xxhdpi/ic_launcher3_round.webp: Warning: The following unrelated icon files have identical contents: ic_launcher3.webp, ic_launcher3_round.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-xxxhdpi/ic_launcher3_round.webp: Warning: The following unrelated icon files have identical contents: ic_launcher3.webp, ic_launcher3_round.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.webp: Warning: The following unrelated icon files have identical contents: ic_launcher2_foreground.webp, ic_launcher3_foreground.webp, ic_launcher_foreground.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.webp: Warning: The following unrelated icon files have identical contents: ic_launcher2_foreground.webp, ic_launcher3_foreground.webp, ic_launcher_foreground.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.webp: Warning: The following unrelated icon files have identical contents: ic_launcher2_foreground.webp, ic_launcher3_foreground.webp, ic_launcher_foreground.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.webp: Warning: The following unrelated icon files have identical contents: ic_launcher2_foreground.webp, ic_launcher3_foreground.webp, ic_launcher_foreground.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.webp: Warning: The following unrelated icon files have identical contents: ic_launcher2_foreground.webp, ic_launcher3_foreground.webp, ic_launcher_foreground.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp: Warning: The following unrelated icon files have identical contents: ic_launcher2_round.webp, ic_launcher_round.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp: Warning: The following unrelated icon files have identical contents: ic_launcher2_round.webp, ic_launcher_round.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp: Warning: The following unrelated icon files have identical contents: ic_launcher2_round.webp, ic_launcher_round.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp: Warning: The following unrelated icon files have identical contents: ic_launcher2_round.webp, ic_launcher_round.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp: Warning: The following unrelated icon files have identical contents: ic_launcher2_round.webp, ic_launcher_round.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-hdpi/ic_logo_monochrome.webp: Warning: The following unrelated icon files have identical contents: ic_launcher3_monochrome.webp, ic_logo_monochrome.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-mdpi/ic_logo_monochrome.webp: Warning: The following unrelated icon files have identical contents: ic_launcher3_monochrome.webp, ic_logo_monochrome.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-xhdpi/ic_logo_monochrome.webp: Warning: The following unrelated icon files have identical contents: ic_launcher3_monochrome.webp, ic_logo_monochrome.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-xxhdpi/ic_logo_monochrome.webp: Warning: The following unrelated icon files have identical contents: ic_launcher3_monochrome.webp, ic_logo_monochrome.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-xxxhdpi/ic_logo_monochrome.webp: Warning: The following unrelated icon files have identical contents: ic_launcher3_monochrome.webp, ic_logo_monochrome.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-hdpi/ic_logo_round.webp: Warning: The following unrelated icon files have identical contents: ic_logo.webp, ic_logo_round.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-mdpi/ic_logo_round.webp: Warning: The following unrelated icon files have identical contents: ic_logo.webp, ic_logo_round.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-xhdpi/ic_logo_round.webp: Warning: The following unrelated icon files have identical contents: ic_logo.webp, ic_logo_round.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-xxhdpi/ic_logo_round.webp: Warning: The following unrelated icon files have identical contents: ic_logo.webp, ic_logo_round.webp [IconDuplicates]
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/mipmap-xxxhdpi/ic_logo_round.webp: Warning: The following unrelated icon files have identical contents: ic_logo.webp, ic_logo_round.webp [IconDuplicates]
+
+   Explanation for issues of type "IconDuplicates":
+   If an icon is repeated under different names, you can consolidate and just
+   use one of the icons and delete the others to make your application
+   smaller. However, duplicated icons usually are not intentional and can
+   sometimes point to icons that were accidentally overwritten or accidentally
+   not updated.
+
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/item_student_admin.xml:98: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                android:textSize="10sp"
+                ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/view_id_card.xml:60: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+            android:textSize="10sp"
+            ~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SmallSp":
+   Avoid using sizes smaller than 11sp.
+
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/AdminAuthorizedTeacherCodesFragment.kt:111: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        holder.binding.tvSurname.text = "Prof. ${item.surname}"
+                                        ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/AdminAuthorizedTeacherCodesFragment.kt:111: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        holder.binding.tvSurname.text = "Prof. ${item.surname}"
+                                         ~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/AdminSubjectsFragment.kt:53: Warning: Number formatting does not take into account locale settings. Consider using String.format instead. [SetTextI18n]
+            dialogBinding.etUnits.setText(it.units.toString())
+                                          ~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/AdminSubjectsFragment.kt:57: Warning: Number formatting does not take into account locale settings. Consider using String.format instead. [SetTextI18n]
+            dialogBinding.etSlots.setText(it.slotsLeft.toString())
+                                          ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/AdminTeacherAssignmentsFragment.kt:71: Warning: Number formatting does not take into account locale settings. Consider using String.format instead. [SetTextI18n]
+            dialogBinding.etYearLevel.setText(existing.yearLevel.toString())
+                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/AdminTeacherAssignmentsFragment.kt:157: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        holder.binding.tvTeacherCode.text = "Teacher: ${item.teacherCode}"
+                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/AdminTeacherAssignmentsFragment.kt:157: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        holder.binding.tvTeacherCode.text = "Teacher: ${item.teacherCode}"
+                                             ~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/AdminTeacherAssignmentsFragment.kt:158: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        holder.binding.tvAssignmentMeta.text = "Year ${item.yearLevel} · Section ${item.section} · ${item.subjectCode} | ${item.meetingTime}"
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/AdminTeacherAssignmentsFragment.kt:158: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        holder.binding.tvAssignmentMeta.text = "Year ${item.yearLevel} · Section ${item.section} · ${item.subjectCode} | ${item.meetingTime}"
+                                                ~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/AdminTeacherAssignmentsFragment.kt:158: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        holder.binding.tvAssignmentMeta.text = "Year ${item.yearLevel} · Section ${item.section} · ${item.subjectCode} | ${item.meetingTime}"
+                                                                      ~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/DashboardFragment.kt:55: Warning: Number formatting does not take into account locale settings. Consider using String.format instead. [SetTextI18n]
+        binding.statUnits.tvStatValue.text = totalEnrolledUnits.toString()
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/DashboardFragment.kt:56: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        binding.statUnits.tvStatLabel.text = "Enrolled Units"
+                                              ~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/DashboardFragment.kt:58: Warning: Number formatting does not take into account locale settings. Consider using String.format instead. [SetTextI18n]
+        binding.statSubjects.tvStatValue.text = earnedUnits.toString()
+                                                ~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/DashboardFragment.kt:59: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        binding.statSubjects.tvStatLabel.text = "Units Earned"
+                                                 ~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/DashboardFragment.kt:61: Warning: Number formatting does not take into account locale settings. Consider using String.format instead. [SetTextI18n]
+        binding.statAverage.tvStatValue.text = remainingUnits.toString()
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/DashboardFragment.kt:62: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        binding.statAverage.tvStatLabel.text = "Remaining Units"
+                                                ~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/GradesFragment.kt:35: Warning: Number formatting does not take into account locale settings. Consider using String.format instead. [SetTextI18n]
+        binding.tvUnitsEarned.text = records
+                                     ^
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/StudentAcademicFragment.kt:30: Warning: Number formatting does not take into account locale settings. Consider using String.format instead. [SetTextI18n]
+        binding.etYearLevel.setText(student.yearLevel.toString())
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/StudentGradesFragment.kt:93: Warning: Number formatting does not take into account locale settings. Consider using String.format instead. [SetTextI18n]
+            etUnits.setText(existing.units.toString())
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/StudentGradesFragment.kt:217: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        holder.binding.tvBreakdown.text = "Units: ${grade.units}"
+                                          ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/StudentGradesFragment.kt:217: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        holder.binding.tvBreakdown.text = "Units: ${grade.units}"
+                                           ~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/StudentMissedActivitiesFragment.kt:152: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+            holder.binding.tvRemarks.text = "Note: ${item.remarks}"
+                                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/StudentMissedActivitiesFragment.kt:152: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            holder.binding.tvRemarks.text = "Note: ${item.remarks}"
+                                             ~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/StudentScheduleFragment.kt:78: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            etStart.setText("08:00 AM")
+                             ~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/StudentScheduleFragment.kt:79: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            etEnd.setText("10:00 AM")
+                           ~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/StudentScheduleFragment.kt:80: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            etRoom.setText("Rm 101")
+                            ~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/StudentScheduleFragment.kt:81: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            etInstructor.setText("Faculty")
+                                  ~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/StudentScheduleFragment.kt:175: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        holder.binding.tvSubject.text = "${session.code} ${session.title}"
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/StudentScheduleFragment.kt:176: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        holder.binding.tvMeta.text = "${session.day.full} | ${session.room} | ${session.instructor}"
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/StudentSubjectsFragment.kt:82: Warning: Number formatting does not take into account locale settings. Consider using String.format instead. [SetTextI18n]
+                etUnits.setText(subject.units.toString())
+                                ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/ui/StudentSubjectsFragment.kt:155: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        holder.binding.tvMeta.text = "${subject.instructor} | ${subject.meetingPattern}"
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/TeacherActivity.kt:33: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        binding.tvTeacherName.text = "${currentTeacher.firstName} ${currentTeacher.lastName}".trim()
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/java/ph/edu/bpc/sis/TeacherActivity.kt:100: Warning: Number formatting does not take into account locale settings. Consider using String.format instead. [SetTextI18n]
+        etYearLevel.setText(assignment.yearLevel.toString())
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/activity_login.xml:110: Warning: Hardcoded string "Forgot password?", should use @string resource [HardcodedText]
+                android:text="Forgot password?"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/activity_sign_up.xml:85: Warning: Hardcoded string "Student Sign-Up", should use @string resource [HardcodedText]
+                    android:text="Student Sign-Up" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/activity_sign_up.xml:93: Warning: Hardcoded string "Teacher Sign-Up", should use @string resource [HardcodedText]
+                    android:text="Teacher Sign-Up" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/activity_sign_up.xml:119: Warning: Hardcoded string "Teacher Surname (e.g. Sanchez)", should use @string resource [HardcodedText]
+                android:hint="Teacher Surname (e.g. Sanchez)"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/activity_sign_up.xml:137: Warning: Hardcoded string "Teacher Code (e.g. SANCHEZ-T101)", should use @string resource [HardcodedText]
+                android:hint="Teacher Code (e.g. SANCHEZ-T101)"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/activity_teacher.xml:34: Warning: Hardcoded string "Teacher Portal", should use @string resource [HardcodedText]
+                    android:text="Teacher Portal"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/activity_teacher.xml:69: Warning: Hardcoded string "Assigned Section Schedules", should use @string resource [HardcodedText]
+            android:text="Assigned Section Schedules" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/activity_teacher.xml:84: Warning: Hardcoded string "Search student name, ID, or section", should use @string resource [HardcodedText]
+            android:hint="Search student name, ID, or section"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/activity_teacher.xml:100: Warning: Hardcoded string "Student Directory", should use @string resource [HardcodedText]
+            android:text="Student Directory" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_announcement.xml:11: Warning: Hardcoded string "Announcement Title", should use @string resource [HardcodedText]
+        android:hint="Announcement Title">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_announcement.xml:24: Warning: Hardcoded string "Body Content", should use @string resource [HardcodedText]
+        android:hint="Body Content">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_announcement.xml:39: Warning: Hardcoded string "Source (e.g. MIS Office)", should use @string resource [HardcodedText]
+        android:hint="Source (e.g. MIS Office)">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_grade.xml:11: Warning: Hardcoded string "Subject Code", should use @string resource [HardcodedText]
+        android:hint="Subject Code">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_grade.xml:24: Warning: Hardcoded string "Subject Title", should use @string resource [HardcodedText]
+        android:hint="Subject Title">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_grade.xml:43: Warning: Hardcoded string "Units", should use @string resource [HardcodedText]
+            android:hint="Units">
+            ~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_grade.xml:57: Warning: Hardcoded string "Final Grade", should use @string resource [HardcodedText]
+            android:hint="Final Grade">
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_missed_activity.xml:11: Warning: Hardcoded string "Subject Code (e.g. IT 201)", should use @string resource [HardcodedText]
+        android:hint="Subject Code (e.g. IT 201)">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_missed_activity.xml:25: Warning: Hardcoded string "Activity / Requirement Title", should use @string resource [HardcodedText]
+        android:hint="Activity / Requirement Title">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_missed_activity.xml:39: Warning: Hardcoded string "Due Date (e.g. 15 October 2026)", should use @string resource [HardcodedText]
+        android:hint="Due Date (e.g. 15 October 2026)">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_missed_activity.xml:53: Warning: Hardcoded string "Status (Pending / Completed / Excused)", should use @string resource [HardcodedText]
+        android:hint="Status (Pending / Completed / Excused)">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_missed_activity.xml:67: Warning: Hardcoded string "Remarks / Instructions", should use @string resource [HardcodedText]
+        android:hint="Remarks / Instructions">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_schedule.xml:11: Warning: Hardcoded string "Subject Code (e.g. IT 101)", should use @string resource [HardcodedText]
+        android:hint="Subject Code (e.g. IT 101)">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_schedule.xml:24: Warning: Hardcoded string "Subject Title", should use @string resource [HardcodedText]
+        android:hint="Subject Title">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_schedule.xml:38: Warning: Hardcoded string "Day of Week", should use @string resource [HardcodedText]
+        android:hint="Day of Week">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_schedule.xml:57: Warning: Hardcoded string "Start Time (e.g. 08:00 AM)", should use @string resource [HardcodedText]
+            android:hint="Start Time (e.g. 08:00 AM)">
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_schedule.xml:71: Warning: Hardcoded string "End Time (e.g. 10:00 AM)", should use @string resource [HardcodedText]
+            android:hint="End Time (e.g. 10:00 AM)">
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_schedule.xml:91: Warning: Hardcoded string "Room (e.g. Rm 101)", should use @string resource [HardcodedText]
+            android:hint="Room (e.g. Rm 101)">
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_schedule.xml:105: Warning: Hardcoded string "Instructor", should use @string resource [HardcodedText]
+            android:hint="Instructor">
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_subject.xml:11: Warning: Hardcoded string "Subject Code (e.g. IT 204)", should use @string resource [HardcodedText]
+        android:hint="Subject Code (e.g. IT 204)">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_subject.xml:25: Warning: Hardcoded string "Subject Title", should use @string resource [HardcodedText]
+        android:hint="Subject Title">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_subject.xml:39: Warning: Hardcoded string "Units", should use @string resource [HardcodedText]
+        android:hint="Units">
+        ~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_subject.xml:53: Warning: Hardcoded string "Instructor", should use @string resource [HardcodedText]
+        android:hint="Instructor">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_subject.xml:67: Warning: Hardcoded string "Meeting Pattern (e.g. MW 8:00–9:30)", should use @string resource [HardcodedText]
+        android:hint="Meeting Pattern (e.g. MW 8:00–9:30)">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_subject.xml:81: Warning: Hardcoded string "Room", should use @string resource [HardcodedText]
+        android:hint="Room">
+        ~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_subject.xml:95: Warning: Hardcoded string "Slots Left", should use @string resource [HardcodedText]
+        android:hint="Slots Left">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_teacher_assignment.xml:12: Warning: Hardcoded string "Select Registered Teacher", should use @string resource [HardcodedText]
+        android:hint="Select Registered Teacher">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_teacher_assignment.xml:25: Warning: Hardcoded string "Year Level (e.g. 2)", should use @string resource [HardcodedText]
+        android:hint="Year Level (e.g. 2)">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_teacher_assignment.xml:39: Warning: Hardcoded string "Section (e.g. 2-A)", should use @string resource [HardcodedText]
+        android:hint="Section (e.g. 2-A)">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_teacher_assignment.xml:53: Warning: Hardcoded string "Subject Code (e.g. IT 201)", should use @string resource [HardcodedText]
+        android:hint="Subject Code (e.g. IT 201)">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_teacher_assignment.xml:67: Warning: Hardcoded string "Meeting Time / Schedule (e.g. 08:00 - 10:00 AM)", should use @string resource [HardcodedText]
+        android:hint="Meeting Time / Schedule (e.g. 08:00 - 10:00 AM)">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_teacher_code.xml:11: Warning: Hardcoded string "Teacher Surname (e.g. Sanchez)", should use @string resource [HardcodedText]
+        android:hint="Teacher Surname (e.g. Sanchez)">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_add_teacher_code.xml:25: Warning: Hardcoded string "Teacher Registration Code (e.g. SANCHEZ-T101)", should use @string resource [HardcodedText]
+        android:hint="Teacher Registration Code (e.g. SANCHEZ-T101)">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_forgot_password.xml:23: Warning: Hardcoded string "Student", should use @string resource [HardcodedText]
+            android:text="Student" />
+            ~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_forgot_password.xml:31: Warning: Hardcoded string "Teacher", should use @string resource [HardcodedText]
+            android:text="Teacher" />
+            ~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_forgot_password.xml:39: Warning: Hardcoded string "Student Number (e.g. 2024-00417)", should use @string resource [HardcodedText]
+        android:hint="Student Number (e.g. 2024-00417)">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_forgot_password.xml:54: Warning: Hardcoded string "Registered Email Address", should use @string resource [HardcodedText]
+        android:hint="Registered Email Address">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_forgot_password.xml:69: Warning: Hardcoded string "New Password", should use @string resource [HardcodedText]
+        android:hint="New Password"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/dialog_forgot_password.xml:85: Warning: Hardcoded string "Confirm New Password", should use @string resource [HardcodedText]
+        android:hint="Confirm New Password"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_announcements.xml:25: Warning: Hardcoded string "Announcements", should use @string resource [HardcodedText]
+                android:text="Announcements" />
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_announcements.xml:32: Warning: Hardcoded string "Post and manage campus announcements.", should use @string resource [HardcodedText]
+                android:text="Post and manage campus announcements."
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_announcements.xml:52: Warning: Hardcoded string "+ Post", should use @string resource [HardcodedText]
+        android:text="+ Post" />
+        ~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_grading_tally.xml:14: Warning: Hardcoded string "Faculty Grading Tally", should use @string resource [HardcodedText]
+        android:text="Faculty Grading Tally" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_grading_tally.xml:21: Warning: Hardcoded string "Select a student to edit or record subject final grades.", should use @string resource [HardcodedText]
+        android:text="Select a student to edit or record subject final grades."
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_ids.xml:25: Warning: Hardcoded string "Authorized Student IDs", should use @string resource [HardcodedText]
+                android:text="Authorized Student IDs" />
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_ids.xml:32: Warning: Hardcoded string "Authorize new student numbers for sign up.", should use @string resource [HardcodedText]
+                android:text="Authorize new student numbers for sign up."
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_ids.xml:52: Warning: Hardcoded string "+ Authorize", should use @string resource [HardcodedText]
+        android:text="+ Authorize" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_schedule.xml:13: Warning: Hardcoded string "Master Schedule Management", should use @string resource [HardcodedText]
+        android:text="Master Schedule Management" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_schedule.xml:20: Warning: Hardcoded string "Select a student to edit class schedules and rooms.", should use @string resource [HardcodedText]
+        android:text="Select a student to edit class schedules and rooms."
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_settings.xml:14: Warning: Hardcoded string "Term & Enrollment Settings", should use @string resource [HardcodedText]
+        android:text="Term &amp; Enrollment Settings" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_settings.xml:21: Warning: Hardcoded string "Control term availability and student enrollment status.", should use @string resource [HardcodedText]
+        android:text="Control term availability and student enrollment status."
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_settings.xml:50: Warning: Hardcoded string "Turn Enrollment ON / OFF", should use @string resource [HardcodedText]
+                    android:text="Turn Enrollment ON / OFF"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_settings.xml:58: Warning: Hardcoded string "When disabled, students cannot submit new enrollments.", should use @string resource [HardcodedText]
+                    android:text="When disabled, students cannot submit new enrollments."
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_students.xml:14: Warning: Hardcoded string "Student Management", should use @string resource [HardcodedText]
+        android:text="Student Management" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_students.xml:21: Warning: Hardcoded string "Search and manage students, programs, and records.", should use @string resource [HardcodedText]
+        android:text="Search and manage students, programs, and records."
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_students.xml:29: Warning: Hardcoded string "Search Student No or Name", should use @string resource [HardcodedText]
+        android:hint="Search Student No or Name"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_subjects.xml:25: Warning: Hardcoded string "Curriculum & Offered Subjects", should use @string resource [HardcodedText]
+                android:text="Curriculum &amp; Offered Subjects" />
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_subjects.xml:32: Warning: Hardcoded string "Add, edit, or remove subjects available for enrollment.", should use @string resource [HardcodedText]
+                android:text="Add, edit, or remove subjects available for enrollment."
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_subjects.xml:52: Warning: Hardcoded string "+ Add", should use @string resource [HardcodedText]
+        android:text="+ Add" />
+        ~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_teacher_assignments.xml:14: Warning: Hardcoded string "Assign Students to Teacher", should use @string resource [HardcodedText]
+        android:text="Assign Students to Teacher" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_admin_teacher_codes.xml:21: Warning: Hardcoded string "Authorize New Teacher Code", should use @string resource [HardcodedText]
+        android:text="Authorize New Teacher Code" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_dashboard.xml:96: Warning: Hardcoded string "Up next today", should use @string resource [HardcodedText]
+            android:text="Up next today" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_dashboard.xml:116: Warning: Hardcoded string "No classes scheduled. Use the free day to read ahead.", should use @string resource [HardcodedText]
+            android:text="No classes scheduled. Use the free day to read ahead."
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_dashboard.xml:127: Warning: Hardcoded string "Missed / Pending Activities", should use @string resource [HardcodedText]
+            android:text="Missed / Pending Activities" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_dashboard.xml:145: Warning: Hardcoded string "From the college", should use @string resource [HardcodedText]
+            android:text="From the college" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_enrollment.xml:33: Warning: Hardcoded string "Enrollment", should use @string resource [HardcodedText]
+                    android:text="Enrollment"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_enrollment.xml:56: Warning: Hardcoded string "📌 Irregular Student Load: Subject selection is customized for back subjects or overload/underload requirements.", should use @string resource [HardcodedText]
+                android:text="📌 Irregular Student Load: Subject selection is customized for back subjects or overload/underload requirements."
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_enrollment.xml:67: Warning: Hardcoded string "Registration details", should use @string resource [HardcodedText]
+                android:text="Registration details" />
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_enrollment.xml:80: Warning: Hardcoded string "Full name", should use @string resource [HardcodedText]
+                    android:hint="Full name">
+                    ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_enrollment.xml:96: Warning: Hardcoded string "Program", should use @string resource [HardcodedText]
+                    android:hint="Program">
+                    ~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_enrollment.xml:117: Warning: Hardcoded string "Year level", should use @string resource [HardcodedText]
+                        android:hint="Year level">
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_enrollment.xml:133: Warning: Hardcoded string "Campus", should use @string resource [HardcodedText]
+                        android:hint="Campus">
+                        ~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_enrollment.xml:147: Warning: Hardcoded string "Mobile number", should use @string resource [HardcodedText]
+                    android:hint="Mobile number">
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_enrollment.xml:164: Warning: Hardcoded string "Pick your subjects", should use @string resource [HardcodedText]
+                android:text="Pick your subjects" />
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_enrollment.xml:173: Warning: Hardcoded string "A regular load is 24 units. Subjects with no slots left are closed for now.", should use @string resource [HardcodedText]
+                android:text="A regular load is 24 units. Subjects with no slots left are closed for now."
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_grades.xml:22: Warning: Hardcoded string "Grades", should use @string resource [HardcodedText]
+            android:text="Grades"
+            ~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_grades.xml:57: Warning: Hardcoded string "General weighted average", should use @string resource [HardcodedText]
+                    android:text="General weighted average"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_grades.xml:79: Warning: Hardcoded string "Units earned", should use @string resource [HardcodedText]
+                    android:text="Units earned"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_profile.xml:103: Warning: Hardcoded string "Academic record", should use @string resource [HardcodedText]
+            android:text="Academic record" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_profile.xml:125: Warning: Hardcoded string "Personal details", should use @string resource [HardcodedText]
+            android:text="Personal details" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_profile.xml:147: Warning: Hardcoded string "Emergency contact", should use @string resource [HardcodedText]
+            android:text="Emergency contact" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_schedule.xml:22: Warning: Hardcoded string "Class schedule", should use @string resource [HardcodedText]
+            android:text="Class schedule"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_schedule.xml:72: Warning: Hardcoded string "Nothing scheduled for this day.", should use @string resource [HardcodedText]
+        android:text="Nothing scheduled for this day."
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_academic.xml:18: Warning: Hardcoded string "Student Name", should use @string resource [HardcodedText]
+            android:text="Student Name" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_academic.xml:26: Warning: Hardcoded string "2024-00000", should use @string resource [HardcodedText]
+            android:text="2024-00000" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_academic.xml:32: Warning: Hardcoded string "Course (Program)", should use @string resource [HardcodedText]
+            android:hint="Course (Program)">
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_academic.xml:45: Warning: Hardcoded string "Course Code", should use @string resource [HardcodedText]
+            android:hint="Course Code">
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_academic.xml:58: Warning: Hardcoded string "Year Level (Number)", should use @string resource [HardcodedText]
+            android:hint="Year Level (Number)">
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_academic.xml:71: Warning: Hardcoded string "Section", should use @string resource [HardcodedText]
+            android:hint="Section">
+            ~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_academic.xml:84: Warning: Hardcoded string "Academic Standing / Status (Regular / Irregular)", should use @string resource [HardcodedText]
+            android:hint="Academic Standing / Status (Regular / Irregular)">
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_academic.xml:98: Warning: Hardcoded string "Update Academic Information", should use @string resource [HardcodedText]
+            android:text="Update Academic Information" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_grades.xml:25: Warning: Hardcoded string "Grades", should use @string resource [HardcodedText]
+                android:text="Grades" />
+                ~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_grades.xml:32: Warning: Hardcoded string "Manage student academic grades.", should use @string resource [HardcodedText]
+                android:text="Manage student academic grades."
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_grades.xml:41: Warning: Hardcoded string "+ Add", should use @string resource [HardcodedText]
+            android:text="+ Add" />
+            ~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_missed_activities.xml:21: Warning: Hardcoded string "No missed activities recorded for this student.", should use @string resource [HardcodedText]
+            android:text="No missed activities recorded for this student."
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_missed_activities.xml:37: Warning: Hardcoded string "Add Missed Activity", should use @string resource [HardcodedText]
+            android:text="Add Missed Activity" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_schedule.xml:25: Warning: Hardcoded string "Schedule", should use @string resource [HardcodedText]
+                android:text="Schedule" />
+                ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_schedule.xml:32: Warning: Hardcoded string "Manage student class schedules.", should use @string resource [HardcodedText]
+                android:text="Manage student class schedules."
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_schedule.xml:52: Warning: Hardcoded string "+ Add", should use @string resource [HardcodedText]
+        android:text="+ Add" />
+        ~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_subjects.xml:25: Warning: Hardcoded string "Enrolled Subjects", should use @string resource [HardcodedText]
+                android:text="Enrolled Subjects" />
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_subjects.xml:32: Warning: Hardcoded string "Manage student's enrolled subjects.", should use @string resource [HardcodedText]
+                android:text="Manage student's enrolled subjects."
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_student_subjects.xml:52: Warning: Hardcoded string "+ Enroll", should use @string resource [HardcodedText]
+        android:text="+ Enroll" />
+        ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_teacher_classes.xml:13: Warning: Hardcoded string "My Assigned Classes", should use @string resource [HardcodedText]
+        android:text="My Assigned Classes" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_teacher_classes.xml:20: Warning: Hardcoded string "Subjects and teaching schedules assigned to you.", should use @string resource [HardcodedText]
+        android:text="Subjects and teaching schedules assigned to you."
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_teacher_student_info.xml:17: Warning: Hardcoded string "Academic Details", should use @string resource [HardcodedText]
+            android:text="Academic Details" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_teacher_student_info.xml:36: Warning: Hardcoded string "Personal Details", should use @string resource [HardcodedText]
+            android:text="Personal Details" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_teacher_student_info.xml:55: Warning: Hardcoded string "Guardian Contact", should use @string resource [HardcodedText]
+            android:text="Guardian Contact" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_teacher_students.xml:13: Warning: Hardcoded string "Designated Students (Grading Tally)", should use @string resource [HardcodedText]
+        android:text="Designated Students (Grading Tally)" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/fragment_teacher_students.xml:20: Warning: Hardcoded string "Select a student to view and record subject final grades.", should use @string resource [HardcodedText]
+        android:text="Select a student to view and record subject final grades."
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/item_authorized_id.xml:17: Warning: Hardcoded string "(MA-00000000)", should use @string resource [HardcodedText]
+        android:text="(MA-00000000)" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/item_authorized_id.xml:29: Warning: Hardcoded string "Authorized", should use @string resource [HardcodedText]
+        android:text="Authorized"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/item_student_admin.xml:96: Warning: Hardcoded string "IRREGULAR", should use @string resource [HardcodedText]
+                android:text="IRREGULAR"
+                ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/item_teacher_assignment.xml:52: Warning: Hardcoded string "Tap to Edit", should use @string resource [HardcodedText]
+            android:text="Tap to Edit"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/view_detail_row.xml:37: Warning: Hardcoded string "Edit", should use @string resource [HardcodedText]
+        android:contentDescription="Edit"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/geraldguillermo/Downloads/BPCStudentInfo/app/src/main/res/layout/view_id_card.xml:58: Warning: Hardcoded string "IRREGULAR STUDENT", should use @string resource [HardcodedText]
+            android:text="IRREGULAR STUDENT"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+0 errors, 298 warnings
